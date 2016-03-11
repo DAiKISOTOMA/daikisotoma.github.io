@@ -18,7 +18,7 @@ nav ul li a {
 }
 
 nav ul li a.selected {
-    color: #191970;
+    color: #000;
 }
 
 * {
@@ -60,6 +60,23 @@ img {
     max-width: 120px;
     border: 5px solid #fff;
     border-radius: 5%;
-    text-align: center;
+}
+
+.box {
+    float: left;
+}
+
+.logo {
+    overflow: hidden;
+}
+
+.logo:before,
+.logo:after {
+    content: "";
+    display: table;
+}
+
+.logo:after {
+    clear: both;
 }
 
